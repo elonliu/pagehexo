@@ -37,7 +37,7 @@ facebook_username:
 linkedin_username: yilongliu
 
 # Build settings
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
@@ -134,7 +134,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexblog
+theme: huxblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -9,6 +9,7 @@ id: 65
 categories:
   - Tech Notes
 date: 2015-08-05 23:08:37
+header-img: "http://on02twadg.bkt.clouddn.com/kinect.jpg"
 ---
 
 [latexpage]
