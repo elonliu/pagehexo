@@ -21,7 +21,7 @@ permalink_defaults:
 
 # Site settings
 SEOTitle: Elon's Blogs
-header-img: /on02twadg.bkt.clouddn.com/posters.d.jpg
+header-img: img/home-bg.jpg
 email:
 description: ""
 keyword: ""
@@ -60,7 +60,7 @@ ga_domain:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
-sidebar-avatar: /on02twadg.bkt.clouddn.com/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -69,7 +69,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
+friends: #[
     # {
         # title: "Foo",
         # href: "#"
@@ -83,7 +83,7 @@ friends: [
         # title: "It helps SEO",
         # href: "#"
     # }
-]
+#]
 
 
 #Custom Setting End
