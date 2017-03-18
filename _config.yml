@@ -142,16 +142,3 @@ deploy:
   type: git
   repo: git@github.com:elonliu/elonliu.github.io.git
   branch: hexo
-
-# Math configuration
-math:
-  engine: 'mathjax'
-  mathjax:
-    src: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
-    config:
-      # MathJax config
-  katex:
-    css: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"
-    js: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"
-    config:
-      # KaTeX config

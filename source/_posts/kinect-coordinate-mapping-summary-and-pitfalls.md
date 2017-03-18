@@ -74,37 +74,39 @@ Note that you should use depth camera to project 3D points or back-project 2D pi
 With known camera matrix $P$,
 $$P =
 \begin{bmatrix}
-f_x & & c_x\\
-& f_y & c_y\\
+f_x & & c_x\\\\
+& f_y & c_y\\\\
 & & 1
 \end{bmatrix}$$
 
 projecting a 3D point $\mathbf{v} = (x, y, z)^\top$ to depth space to get a 2D point $\mathbf{u} = (u,v)^\top$ with depth value $d$ is quite easy, because depth value is exactly $z$ value, i.e. $d = z$. Therefore,
-$$\begin{bmatrix}
-f_x & & c_x\\
-& f_y & c_y\\
+$$
+\begin{bmatrix}
+f_x & & c_x\\\\
+& f_y & c_y\\\\
 & & 1
 \end{bmatrix}
 \begin{bmatrix}
-x \\ y \\ z
+x \\\\ y \\\\ z
 \end{bmatrix}
 =
 \begin{bmatrix}
-ud\\ vd\\ d
-\end{bmatrix}$$
+ud\\\\ vd\\\\ d
+\end{bmatrix}
+$$
 It's not hard to get
 
 *   Projection (3D to 2D)
 $$\begin{array}{rl}
-u & = \dfrac{f_x x + c_x z}{z}\\[0.5ex]
-v & = \dfrac{f_y y + c_y z}{z}\\[0.5ex]
+u & = \dfrac{f_x x + c_x z}{z}\\\\
+v & = \dfrac{f_y y + c_y z}{z}\\\\
 d & = z
 \end{array}$$
 
 *   Back-projection (2D to 3D)
 $$\begin{array}{rl}
-x &= \dfrac{(u - c_x) d}{f_x} \\[0.5ex]
-y &= \dfrac{(v - c_y) d}{f_y} \\[0.5ex]
+x &= \dfrac{(u - c_x) d}{f_x} \\\\
+y &= \dfrac{(v - c_y) d}{f_y} \\\\
 z &= d
 \end{array}$$
 
