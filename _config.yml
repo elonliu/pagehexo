@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://elonliu.github.io
+url: http://blog.elonliu.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,20 +41,20 @@ anchorjs: false                          # if you want to customize anchor. chec
 
 
 # Disqus settings
-disqus_username:
+disqus_username: elonliu
 
 # Duoshuo settings
-# duoshuo_username: kaijun
+duoshuo_username:
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 
 # Google Analytics
-ga_track_id: ''            # Format: UA-xxxxxx-xx
-ga_domain: 
+ga_track_id: 'UA-64832214-1'            # Format: UA-xxxxxx-xx
+ga_domain: elonliu.com
 
 
 # Sidebar settings
