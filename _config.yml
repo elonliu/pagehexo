@@ -6,7 +6,7 @@
 title: Elon's Blog
 subtitle: For all the possibilities in life
 author: Elon Liu
-language:
+language: en
 timezone:
 
 # URL
@@ -16,77 +16,6 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-
-#Custom Setting Start
-
-# Site settings
-SEOTitle: Elon's Blogs
-header-img: img/home-bg.jpg
-email:
-description: ""
-keyword: ""
-
-
-# SNS settings
-# RSS: false
-weibo_username:
-zhihu_username:  	 
-github_username: elonliu
-twitter_username:
-facebook_username:
-linkedin_username: yilongliu
-
-# Build settings
-anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# Disqus settings
-disqus_username: elonliu
-
-# Duoshuo settings
-duoshuo_username:
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 
-# Google Analytics
-ga_track_id: 'UA-64832214-1'            # Format: UA-xxxxxx-xx
-ga_domain: elonliu.com
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: ""
-sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-# Friends
-friends: #[
-    # {
-        # title: "Foo",
-        # href: "#"
-    # },{
-        # title: "Bar",
-        # href: "#"
-    # },{
-        # title: "Example Friends",
-        # href: "#"
-    # },{
-        # title: "It helps SEO",
-        # href: "#"
-    # }
-#]
-
-
-#Custom Setting End
 
 # Directory
 source_dir: source
@@ -115,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: misc
 category_map:
 tag_map:
 
@@ -134,11 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: huxblog
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:elonliu/elonliu.github.io.git
-  branch: hexo
+  type: git # Note: Found it better to manually copy public folder than to deploy.
+  repo: #git@github.com:elonliu/elonliu.github.io.git
+  branch: #hexo
