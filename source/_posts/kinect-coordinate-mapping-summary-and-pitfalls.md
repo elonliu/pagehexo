@@ -15,6 +15,8 @@ catalog: true
 
 I'm using [Microsoft Kinect](https://www.microsoft.com/en-us/kinectforwindows/) for some face tracking applications, and coordinate mapping is often inevitable. However, I found that [the official document](https://msdn.microsoft.com/en-us/library/dn799271.aspx) is quite simple and confusing. Here I will summarize what I figured out while trying to use it. Hopefully it makes things more clear.
 
+<!-- more -->
+
 ## Overview
 
 Note: This post addresses [Kinect for Windows v2](https://www.microsoft.com/en-us/kinectforwindows/) and its c++ API in [SDK 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=44561). The conclusions may not apply to previous generation of Kinect or c# API or later version of SDK.
