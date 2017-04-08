@@ -11,6 +11,7 @@ categories:
 date: 2017-03-18 23:08:37
 header-img: "http://on02twadg.bkt.clouddn.com/kinect.jpg"
 catalog: true
+mathjax: true
 ---
 
 I'm using [Microsoft Kinect](https://www.microsoft.com/en-us/kinectforwindows/) for some face tracking applications, and coordinate mapping is often inevitable. However, I found that [the official document](https://msdn.microsoft.com/en-us/library/dn799271.aspx) is quite simple and confusing. Here I will summarize what I figured out while trying to use it. Hopefully it makes things more clear.
